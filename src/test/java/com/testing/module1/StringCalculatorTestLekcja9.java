@@ -22,6 +22,7 @@ class StringCalculatorTestLekcja9 {
     }
     //wyciągnięcie do oddzielnych metod powtarzający się kod
     //logika implementująca wyciągnięta do zewnętrznej metody
+    //prywatna metoda przeniesiona w dół klasy testowej
     private void createCalculator() {
         calculator = new StringCalculator();
     }

@@ -21,11 +21,13 @@ public class StringCalculatorTest {
 
     @Test
     void shouldSumThreeNumbersWhenThreeNumbersGiven() {
+
         assertEquals(6, calculator.add("1,2,3"));
     }
 
     @Test
     void shouldReturnCorrectSumWithNegativeNumbersGive() {
+
         assertEquals(-1, calculator.add("-2,1"));
     }
 }
