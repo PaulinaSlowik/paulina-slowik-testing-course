@@ -7,8 +7,6 @@ public class NameInverterTest {
     @Test
     void shouldThrowExceptionWhenNullProcided() {
         NameInverter nameInverter = new NameInverter();
-        Assertions.assertThrows(NullPointerException.class, () -> {
-            nameInverter.inverter(null);
-        });
+        Assertions.assertThrows(NullPointerException.class, () -> nameInverter.inverter(null));
     }
 }
