@@ -16,7 +16,7 @@ public class CalculatorTest {
         //When
         double result = calculator.add("");
         //Then
-        assertEquals(0.0,result);
+        assertEquals(0.0, result);
         assertThat(result).isEqualTo(0.0);
     }
 
